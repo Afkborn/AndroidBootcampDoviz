@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dovizFragment">
+
+    <fragment
+        android:id="@+id/dovizFragment"
+        android:name="com.bilgehankalay.dovizkurlari2.fragments.DovizFragment"
+        android:label="fragment_doviz"
+        tools:layout="@layout/fragment_doviz" />
+</navigation>
